@@ -11,9 +11,13 @@ rails-development-tips
 если нет bundler'а — ставим его `gem install bundler`
 
 если нет нужной версии руби — ставим её:
+
 `rbenv install 2.0.0p-247` — с нужной версией
+
 `rbenv rehash`
+
 `gem install bundler`
+
 `bundle install` - устанавливаем пакеты для текущего каталога
 
 `cp config/database.yml.example config/database.yml` - комируем настройки базы из файла пирмера
