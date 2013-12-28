@@ -4,6 +4,8 @@ rails-development-tips
 
 `git clone ...` — клонируем проект с гитхаба
 
+`cd каталог` - переходим в каталог проекта
+
 `bundle install` — устанавливаются rubygems
 
 если нет bundler'а — ставим его `gem install bundler`
@@ -12,11 +14,11 @@ rails-development-tips
 `rbenv install 2.0.0p-247` — с нужной версией
 `rbenv rehash`
 `gem install bundler`
-`bundle install`
+`bundle install` - устанавливаем пакеты для текущего каталога
 
+`cp config/database.yml.example config/database.yml` - комируем настройки базы из файла пирмера
 
-`cp config/database.yml.example config/database.yml`
-`vim config/database.yml`
+`vim config/database.yml` - редактируем настройки базы (обычно user и password достаточно)
 
 `bundle exec rake db:create` - создается база их схемы 
 
