@@ -18,8 +18,11 @@ rails-development-tips
 `cp config/database.yml.example config/database.yml`
 `vim config/database.yml`
 
-`bundle exec rake db:create`
+`bundle exec rake db:create` - создается база их схемы 
 
-`bundle exec rake db:migrate`
+`bundle exec rake db:migrate` - в базу вносятся миграция (изменяется схема базы)
 
-`bundle exec rails s`
+`bundle exec rails s` - запускаем веб-сервер на 3000-м порту
+
+
+Дальше в браузере открываем `http://localhost:3000`
